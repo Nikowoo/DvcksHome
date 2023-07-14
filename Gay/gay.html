@@ -5,6 +5,16 @@ document.addEventListener('click', () => {
   win.resizeTo(1000,1000)
 })
 </script>
+
+<script>
+    document.addEventListener("click", playAudioOnce);
+  
+    function playAudioOnce() {
+      var audio = new Audio('https://dvcks.xyz/pop/bgm.mp3');
+      audio.play();
+      document.removeEventListener("click", playAudioOnce);
+    }
+  </script>
 <style>
 body {
   background-image: url('https://dvcks.xyz/background.gif');
