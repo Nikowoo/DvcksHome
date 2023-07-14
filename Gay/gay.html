@@ -1,3 +1,17 @@
+<script language="JavaScript">
+var space = " ";
+var speed = "60";
+var pos = 0;
+var msg = "// PARIDOT ";
+function Scroll()
+{
+document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
+pos++;
+if (pos > msg.length) pos = 0;
+window.setTimeout("Scroll()", speed); 
+}
+Scroll();
+</script>
 <script>
     document.addEventListener('click', () => {
       window.open('https://dvcks.xyz/pop/pop.html','', 'width=750,height=600');
@@ -5,7 +19,7 @@
       win.resizeTo(750,600)
     })
     </script>
-    
+    <link rel="shortcut icon" type="image/jpg" href="paridot.ico"/>
     <script>
         document.addEventListener("click", playAudioOnce);
       
