@@ -13,6 +13,9 @@ window.setTimeout("Scroll()", speed);
 Scroll();
 </script>
 <link rel="shortcut icon" type="image/jpg" href="Germa.ico"/>
+<center>
+<div class="text">Welcome!!!11!</div>
+</center>
 <br>
 <br>
 <br>
@@ -24,7 +27,30 @@ Scroll();
 <br>
 <br>
 <br>
+<style>@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
+@keyframes hue-shift {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.text {
+  font-size: 24px;
+  animation: rotate 5s linear infinite, hue-shift 10s linear infinite;
+}</style>
 	
 
 
