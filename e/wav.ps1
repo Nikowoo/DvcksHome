@@ -39,7 +39,12 @@
 
 iwr $wav -O $env:TMP\e.wav
 
+############################################################################################################################################################
 
+# This turns the volume up to max level
+$k=[Math]::Ceiling(5/2);$o=New-Object -ComObject WScript.Shell;for($i = 0;$i -lt $k;$i++){$o.SendKeys([char] 175)}
+
+############################################################################################################################################################
 
 # This while loop will constantly check if the mouse has been moved 
 # if the mouse has not moved "SCROLLLOCK" will be pressed to prevent screen from turning off
