@@ -37,12 +37,9 @@
 
 #$wav = ""
 
-iwr $wav -0 $env:TMP\e.wav
-
-############################################################################################################################################################
+iwr $wav -O $env:TMP\e.wav
 
 
-############################################################################################################################################################
 
 # This while loop will constantly check if the mouse has been moved 
 # if the mouse has not moved "SCROLLLOCK" will be pressed to prevent screen from turning off
