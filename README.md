@@ -1,3 +1,3 @@
-# DvcksHome
-<sub> *personal site don't take me seriously* </sub>
-asaaagghhhhhh
+# Dvcks Home 
+## Please don't take this seriously, I need to reorganize every single folder here because it's wayy to messy...
+### *@NikoArtzx on Twitter (Never calling it X)* 
